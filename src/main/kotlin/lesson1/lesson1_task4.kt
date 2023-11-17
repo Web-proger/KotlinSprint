@@ -1,4 +1,4 @@
-package lesson4
+package lesson1
 
 fun main() {
     val length: Long = 40_868_600_000
