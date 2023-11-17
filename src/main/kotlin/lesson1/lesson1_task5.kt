@@ -1,4 +1,4 @@
-package lesson5
+package lesson1
 
 fun main() {
     // 1ч 48 мин = 108 мин = 6480 сек
