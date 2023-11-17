@@ -1,4 +1,4 @@
-package lesson2
+package lesson1
 
 fun main() {
     val orderCount: Int = 75
