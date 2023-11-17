@@ -4,6 +4,7 @@ fun main() {
     val year = "1961"
     var hour = "09"
     var minute = "07"
+
     println(year)
     println(hour)
     println(minute)
