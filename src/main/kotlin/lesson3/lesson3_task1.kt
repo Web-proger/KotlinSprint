@@ -2,9 +2,11 @@ package lesson3
 
 fun main() {
     val userName = "Степан"
-    val dayWelcomeMessage = "Доброго дня, $userName!"
-    val nightWelcomeMessage = "Доброго вечера, $userName!"
+    var timeOfDay = "День"
+    var welcomeMessage = "Добрый $timeOfDay, $userName!"
 
-    println(dayWelcomeMessage)
-    println(nightWelcomeMessage)
+    println(welcomeMessage)
+    timeOfDay = "Вечер"
+    welcomeMessage = "Добрый $timeOfDay, $userName!"
+    println(welcomeMessage)
 }
