@@ -5,7 +5,7 @@ fun main() {
 
     println("""
         $num x 1 = ${num * 1}
-        $num x 2= ${num * 2}
+        $num x 2 = ${num * 2}
         $num x 3 = ${num * 3}
         $num x 4 = ${num * 4}
         $num x 5 = ${num * 5}
