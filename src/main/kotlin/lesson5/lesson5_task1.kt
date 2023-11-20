@@ -1,10 +1,13 @@
 package lesson5
 
-fun main() {
-    val correctAnswer = 42
-    val controlCase = "34 + 8"
+import kotlin.random.Random
 
-    println("Мы должны убедиться что вы не бот. Решите простой пример. Сколько будет $controlCase?")
+fun main() {
+    val num1 = Random.nextInt(0, 100)
+    val num2 = Random.nextInt(0, 100)
+    val correctAnswer = num1 + num2
+
+    println("Мы должны убедиться что вы не бот. Решите простой пример. Сколько будет $num1 + $num2")
     val userAnswer = readln().toInt()
     if (userAnswer == correctAnswer) {
         println("Добро пожаловать!")
