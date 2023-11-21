@@ -1,9 +1,9 @@
 package lesson4
 
-val IS_SUNNY_WEATHER = true
-val IS_OPEN_TENT = true
-val AIR_HUMIDITY = 20
-val EXCLUDE_THE_SEASON = "winter"
+const val IS_SUNNY_WEATHER = true
+const val IS_OPEN_TENT = true
+const val AIR_HUMIDITY = 20
+const val EXCLUDE_THE_SEASON = "winter"
 
 fun main() {
     val isCurrentSunnyWeather = true
