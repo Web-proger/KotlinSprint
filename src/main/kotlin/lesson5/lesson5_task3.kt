@@ -19,8 +19,8 @@ fun main() {
     val secondNumber = readln().toInt()
     println("$winningNumber1, $winningNumber2")
 
-    if (firstNumber == winningNumber1 || secondNumber == winningNumber1) ++correctAnswersCount
-    if (firstNumber == winningNumber2 || secondNumber == winningNumber2) ++correctAnswersCount
+    if (firstNumber == winningNumber1 || firstNumber == winningNumber2) ++correctAnswersCount
+    if (secondNumber == winningNumber1 || secondNumber == winningNumber2) ++correctAnswersCount
 
     val resultMessage = when(correctAnswersCount) {
         2 -> "Поздравляем! Вы выиграли главный приз!"
